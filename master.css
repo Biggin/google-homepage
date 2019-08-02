@@ -5,10 +5,39 @@ body {
 
 /*  My first attempt at creating a web page with HTML and the accompanying CSS  */
 
-img {
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 93%;
+}
+
+.top li {
+  float: left;
+}
+
+.top li a {
   display: block;
-  margin: 198px 0px 18px 528px;
   text-align: center;
+  margin: 25px 5px 0px 25px;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.pretty {
+  margin-right: -1px;
+}
+
+.logo {
+  text-align: center;
+  display: block;
+  margin: 198px 0px 18px 0px;
 }
 
 .search {
@@ -41,10 +70,45 @@ img {
 
 .buttons input {
   color: #777;
-  background-color: #f5f5f5;
+  background-color: #f2f2f2;
   border-style: none;
 }
 
 .buttons input:hover {
   border: .5px #bbb solid;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 30px;
+    background-color: #f2f2f2;
+    border-top: 1px #e4e4e4 solid;
+}
+
+.bottom li {
+  float: left;
+}
+
+.bottom li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  color: #777;
+  padding: 14px 16px;
+}
+
+.bottom li a:hover {
+  text-decoration: underline;
+}
+
+.right {
+  margin-right: -3px;
+  text-align: left;
 }
