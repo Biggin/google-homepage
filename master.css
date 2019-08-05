@@ -62,7 +62,7 @@ li a:hover {
   border-radius: 25px;
   line-height: 20px;
   padding-left: 20px;
-  font-size: 10px;
+  font-size: 12px;
   height: 46px;
   border: 1px #ddd solid;
 }
@@ -71,8 +71,10 @@ li a:hover {
    border: .1em #bbb solid;
 }
 
-.search input .menu:active {
-
+.mic {
+  position: absolute;
+  left: 920px;
+  top: 323px;
 }
 
 .buttons {
