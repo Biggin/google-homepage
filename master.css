@@ -31,15 +31,16 @@ li a:hover {
 }
 
 .apps {
-  width: 22px;
+  width: 16px;
   margin-top: -7px;
+  margin-right: -6px;
 }
 
 .profile {
-  width: 34px;
+  width: 32px;
   margin-top: -15px;
-  margin-right: 5px;
-  margin-left: -3px;
+  margin-right: 17px;
+  margin-left: -4px;
 }
 
 .pretty {
@@ -49,25 +50,29 @@ li a:hover {
 .logo {
   text-align: center;
   display: block;
-  margin: 198px 0px 18px 0px;
+  margin: 111px 0px 18px 0px;
 }
 
 .search {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .search input {
   border-radius: 25px;
-  padding: 0px 152px;
-  line-height: 16px;
-  font-size: 16px;
+  line-height: 20px;
+  padding-left: 20px;
+  font-size: 10px;
   height: 46px;
   border: 1px #ddd solid;
 }
 
 .search input:hover {
-   border: .2em #eee solid;
+   border: .1em #bbb solid;
+}
+
+.search input .menu:active {
+
 }
 
 .buttons {
