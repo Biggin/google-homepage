@@ -1,0 +1,13 @@
+.wrapper div:nth-child(odd) {
+  background: #465254;
+}
+
+li {
+list-style: none;
+}
+
+.wrapper {
+  display: grid;
+  padding: 1em;
+  grid-template-rows: auto;
+}
