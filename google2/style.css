@@ -1,13 +1,123 @@
-.wrapper div:nth-child(odd) {
-  background: #465254;
+
+.wrapper:nth-child(odd) {
+  background: 465254;
+}
+
+.wrapper {
+  padding: 1em;
+  font-size: 14px;
+}
+
+body {
+  font-family: arial, monospace, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 li {
 list-style: none;
 }
 
-.wrapper {
-  display: grid;
-  padding: 1em;
-  grid-template-rows: auto;
+input {
+  position: absolute;
+  top: 22px;
+  left: 130px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr auto;
+    padding: 20px 20px 0 20px;
+    grid-gap: 20px;
+    background: white;
+}
+
+.navbar {
+  width: 750px;
+  margin-left: 175px;
+  margin-top: 10px;
+}
+
+.navbar a {
+  color: #333;
+  display: inline-block;
+  padding: 0px 20px 5px 10px;
+  font-size: 13px;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+.navbar a:active {
+  color: blue;
+  border-bottom: 3px blue solid;
+}
+
+.settings {
+  margin-left: 55px;
+  margin-right: -5px;
+}
+
+.results {
+  margin-left: 155px;
+  color: #777;
+}
+
+.logo {
+  margin-top: -6px;
+  margin-left: -4px;
+}
+
+.magnify {
+  position: absolute;
+  top: 34px;
+  left: 755px;
+}
+
+.search {
+  margin-left: 15px;
+  border-radius: 25px;
+  border: 1px #ddd solid;
+  font-size: 16px;
+  text-indent: 25px;
+  cursor: 8px;
+}
+
+.search:hover {
+  border: .1em #bbb solid;
+}
+
+.navbar ul li {
+  display: inline;
+
+}
+
+.profile {
+  float: right;
+  margin-top: -20px;
+  margin-right: 2px;
+}
+
+.apps {
+  float: right;
+  margin-top: -28px;
+  margin-right: 54px;
+}
+
+.menu {
+  margin-left: 150px;
+}
+
+hr {
+  color: #fff;
 }
